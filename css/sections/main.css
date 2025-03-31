@@ -1,0 +1,39 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 40vh
+}
+.section__title{
+    color: white;
+    font-weight: 800;
+    max-width: 200px;
+}
+.section__text{
+    max-width:500px;
+    color:white;
+    font-size:15px;
+
+}
+.section__button{
+    border-radius: 10%;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.section__image {
+    align-self: center;
+
+
+}
+.place{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+
+}
+.place::placeholder{
+    font-size: 20px;  /* Makes placeholder text larger */
+    color: gray;
+}
