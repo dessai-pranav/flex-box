@@ -82,3 +82,48 @@ text-align: center;
     margin-left:20%;
     margin-top: 0;
 }
+.fit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fit__box{
+    background-color: #1f2937;
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.fit__box__1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+   justify-content: space-between;
+}
+
+.parts{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:20px;
+    margin-top:8px;
+}
+.elements{
+
+    margin-bottom: 0;
+}
+.para{
+    margin-top: 0;
+}
+.elements__button{
+    color:white;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    align-items: center;
+}
