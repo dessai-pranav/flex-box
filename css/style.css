@@ -1,0 +1,9 @@
+@import url("./sections/header.css");
+@import url("./sections/footer.css");
+@import url("./sections/main.css");
+
+:root{
+    --primary-color:#1F2937;
+    --secondary-color:#F9FAF8;
+    --header-link: #E5E7EB;
+}
