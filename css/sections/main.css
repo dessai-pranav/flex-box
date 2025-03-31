@@ -37,3 +37,48 @@
     font-size: 20px;  /* Makes placeholder text larger */
     color: gray;
 }
+.title{
+  display: flex;
+    justify-content: center;
+
+}
+.box__1{
+    border: 2px solid dodgerblue;
+    height: 200px;
+    width: 200px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+
+    gap:100px;
+
+
+}
+.write{
+    display: flex;
+    flex-direction: row;
+  max-width: 70%;
+text-align: center;
+
+    margin-left:230px;
+    align-items: center;
+    gap: 170px;
+}
+.section__para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    text-transform: uppercase;
+}
+.section__para-text{
+    color: white;
+    max-width: 500px;
+    margin-top:50px;
+    margin-bottom:0;
+}
+.author{
+    margin-left:20%;
+    margin-top: 0;
+}
